@@ -1,0 +1,9 @@
+
+diff --git a/App.jsx b/src/App.jsx
+similarity index 100%
+rename from App.jsx
+rename to src/App.jsx
+diff --git a/main.jsx b/src/main.jsx
+similarity index 100%
+rename from main.jsx
+rename to src/main.jsx
