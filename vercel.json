@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/site.webmanifest", "destination": "/site.webmanifest" },
     { "source": "/(.*)", "destination": "/" }
   ],
   "headers": [
