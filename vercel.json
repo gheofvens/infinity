@@ -1,15 +1,16 @@
 {
-  "rewrites": [
-    { "source": "/site.webmanifest", "destination": "/site.webmanifest" },
-    { "source": "/(.*)", "destination": "/" }
-  ],
-  "headers": [
+  "routes": [
     {
-      "source": "/site.webmanifest",
-      "headers": [
-        { "key": "Content-Type", "value": "application/manifest+json" },
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
+      "src": "/site.webmanifest",
+      "dest": "/site.webmanifest",
+      "headers": {
+        "Content-Type": "application/manifest+json",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
