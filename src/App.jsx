@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Auth from "@/pages/Auth";
-import Home from "@/pages/Home";
-import Cabinet from "@/pages/Cabinet";
+import Auth from "./pages/Auth";
+import Home from "./pages/Home";
+import Cabinet from "./pages/Cabinet";
 import { useState } from "react";
 
 export default function App() {
